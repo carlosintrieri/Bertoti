@@ -1,0 +1,70 @@
+{
+    "saude": {
+        "vacinas": "Vacinas essenciais para cães incluem antirrábica, V8 ou V10. Para gatos, incluem antirrábica e V4 ou V5.",
+        "parasitas": "Controle de pulgas, carrapatos e vermes é fundamental para a saúde do pet.",
+        "checkup": "Visitas regulares ao veterinário, pelo menos uma vez ao ano, são importantes para prevenção de doenças."
+    },
+    "cuidados": {
+        "alimentacao": "A alimentação adequada varia conforme espécie, idade, tamanho e condições de saúde específicas.",
+        "higiene": "Banhos regulares, escovação de pelos e dentes, limpeza de orelhas e corte de unhas são essenciais.",
+        "exercicios": "Exercícios físicos diários ajudam a manter o peso ideal e a saúde mental dos pets."
+    },
+    "tipos": {
+        "mamiferos": [
+            "Cães",
+            "Gatos",
+            "Coelhos",
+            "Hamsters",
+            "Furões"
+        ],
+        "aves": [
+            "Canários",
+            "Periquitos",
+            "Calopsitas",
+            "Papagaios"
+        ],
+        "repteis": [
+            "Tartarugas",
+            "Iguanas",
+            "Lagartos",
+            "Serpentes"
+        ],
+        "peixes": [
+            "Betta",
+            "Kinguio",
+            "Guppy",
+            "Tetra",
+            "Peixe-palhaço"
+        ]
+    },
+    "racas": {
+        "caes": [
+            "Labrador",
+            "Golden Retriever",
+            "Poodle",
+            "Bulldog",
+            "Pastor Alemão",
+            "Rottweiler",
+            "Pinscher",
+            "Shih Tzu",
+            "Pitbull"
+        ],
+        "gatos": [
+            "Persa",
+            "Siamês",
+            "Maine Coon",
+            "Angorá",
+            "Bengal",
+            "Sphynx",
+            "Ragdoll",
+            "Abissínio"
+        ],
+        "coelhos": [
+            "Angorá",
+            "Mini Lop",
+            "Netherland Dwarf",
+            "Rex",
+            "Hotot"
+        ]
+    }
+}
