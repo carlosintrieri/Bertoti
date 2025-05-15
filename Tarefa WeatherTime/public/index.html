@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2962ff" />
+    <meta name="description" content="WeatherTime - Aplicativo de previsão do tempo moderno e interativo" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Fonte Poppins do Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CDN do Tailwind CSS para garantir que funcione -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>WeatherTime - Previsão do Tempo</title>
+    
+    <style>
+      /* Animações personalizadas */
+      @keyframes twinkle {
+        0%, 100% { opacity: 0.2; }
+        50% { opacity: 0.8; }
+      }
+      
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+      }
+      
+      @keyframes rain {
+        0% { transform: translateY(-100%); opacity: 0.7; }
+        100% { transform: translateY(100%); opacity: 0; }
+      }
+      
+      @keyframes snow {
+        0% { transform: translateY(-10px) rotate(0deg); opacity: 0.7; }
+        100% { transform: translateY(100px) rotate(360deg); opacity: 0; }
+      }
+      
+      @keyframes lightning {
+        0%, 45%, 55%, 100% { opacity: 0; }
+        50% { opacity: 1; }
+      }
+      
+      @keyframes fog {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+      }
+      
+      /* Estilo base */
+      body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Estilos para o layout */
+      .min-h-screen {
+        min-height: 100vh;
+      }
+      
+      .container {
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      
+      @media (min-width: 640px) {
+        .container {
+          max-width: 640px;
+        }
+      }
+      
+      @media (min-width: 768px) {
+        .container {
+          max-width: 768px;
+        }
+      }
+      
+      @media (min-width: 1024px) {
+        .container {
+          max-width: 1024px;
+        }
+      }
+      
+      @media (min-width: 1280px) {
+        .container {
+          max-width: 1280px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>Você precisa habilitar JavaScript para executar este aplicativo.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+/* Este arquivo mantém as diretivas do Tailwind e as animações personalizadas */
+
+/* Animações personalizadas */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes rain {
+  0% { transform: translateY(-100%); opacity: 0.7; }
+  100% { transform: translateY(100%); opacity: 0; }
+}
+
+@keyframes snow {
+  0% { transform: translateY(-10px) rotate(0deg); opacity: 0.7; }
+  100% { transform: translateY(100px) rotate(360deg); opacity: 0; }
+}
+
+@keyframes lightning {
+  0%, 45%, 55%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fog {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Classes de utilidade para animações */
+.animate-twinkle {
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-rain {
+  animation: rain 1.5s linear infinite;
+}
+
+.animate-snow {
+  animation: snow 5s linear infinite;
+}
+
+.animate-lightning {
+  animation: lightning 5s linear infinite;
+}
+
+.animate-fog {
+  animation: fog 20s linear infinite;
+}
+
+/* Estilos para sobrepor classes do Tailwind, se necessário */
+.bg-gradient-day-clear {
+  background: linear-gradient(135deg, #bbdefb, #e3f2fd);
+}
+
+.bg-gradient-night-clear {
+  background: linear-gradient(135deg, #1a237e, #000051);
+}
+
+.bg-gradient-day-rain {
+  background: linear-gradient(135deg, #78909c, #b0bec5);
+}
+
+.bg-gradient-night-rain {
+  background: linear-gradient(135deg, #263238, #4f5b62);
+}
+
+.bg-gradient-card {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
