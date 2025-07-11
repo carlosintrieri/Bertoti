@@ -1,7 +1,7 @@
 # Agente IA com Groq
 
 
-Com a aplicação de Agente de IA, adquiri conhecimento nesta área tão atual.
+Implementação de agente conversacional usando Groq API, explorando arquiteturas de IA generativa.
 
 
 **Foco: Arquitetura de backend e integração com LLMs**
