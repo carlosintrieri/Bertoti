@@ -1,18 +1,25 @@
 # Agente IA com Groq
 
+
+Com a aplicação de Agente de IA, adquiri conhecimento nesta área tão atual.
+
+
 **Foco: Arquitetura de backend e integração com LLMs**
 
-## Sobre o projeto
-Desenvolvimento de um agente inteligente que integra com a API Groq...
+### Sobre o projeto
+
+Desenvolvimento de um agente inteligente que integra com a API Groq.
 
 ### Tecnologias (Backend)
 - Python
 - Groq API
 
 ### Interface
-## Frontend
+### Frontend
 React
+
 Interface desenvolvida com assistência de IA (Claude) para demonstração do agente.
+
 **Foco do desenvolvedor: arquitetura backend e lógica do agente IA.**
 
 Na atividade de DogAi, faz-se preciso utilizar as dependências abaixo para que o código rode normalmente.
