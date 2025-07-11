@@ -16,7 +16,7 @@ Desenvolvimento de um agente inteligente que integra com a API Groq.
 
 ### Interface
 ### Frontend
-React
+- React
 
 Interface desenvolvida com assistência de IA (Claude) para demonstração do agente.
 
